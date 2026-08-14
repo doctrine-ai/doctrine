@@ -46,7 +46,7 @@
 | ack_required       = true                                                                          |
 | feedback_loop      = enabled                                                                       |
 | audit_log          = full                                                                          |
-| creators            = Mary Dragonfly & Peter Lizicska | .::UK::BP:HC::.                            |
+| creators           = Mary Dragonfly & Peter Lizicska | ._::UK_BPHC:..                             🎲
 | theme_m            = Wu Tang Clan                                                                  |
 +----------------------------------------------------------------------------------------------------+
 | STATUS: READY  |  RENDER PROFILE: GITHUB_GFM / UNICODE_BLOCK / WIDE                                |
