@@ -1,0 +1,1571 @@
+{
+  "metadata": {
+    "version": "2.2.0",
+    "generated_at": "2026-03-12T00:30:57Z",
+    "identity": {
+      "name": "Intelligence Operating System (UNICAGD)",
+      "type": "intelligence_operating_system",
+      "layered": true,
+      "governance_first": true,
+      "non_operational": false
+    },
+    "cross_layer_rules": {
+      "no_weight_type_mixing": true,
+      "no_downward_projection": {
+        "from": "system_governance_topology",
+        "to": "analytical_core"
+      },
+      "no_upward_authority_transfer": {
+        "from": "analytical_core",
+        "to": "system_governance_topology"
+      },
+      "no_decision_derivation": true,
+      "no_implicit_prior_conversion": true,
+      "meta_supervision_extension": {
+        "from": {
+          "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+        },
+        "to": [
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.NATO_SANDBOX"
+          },
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.NATO_NO_SANDBOX"
+          },
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.DIANA_RESEARCH"
+          },
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.MULTI_AGENCY_RESEARCH"
+          },
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.GOD_MODE"
+          },
+          {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_SANDBOX"
+          }
+        ],
+        "rules": {
+          "no_direct_command": true,
+          "interpretive_guidance_only": true,
+          "maintain_audit_trail": true
+        }
+      }
+    },
+    "lifecycle": {
+      "phases": [
+        "Construction",
+        "Active Analytical Use",
+        "Freeze",
+        "Archive",
+        "Termination"
+      ],
+      "current_phase": "Active Analytical Use"
+    },
+    "audit_and_stability": {
+      "auditability": true,
+      "no_silent_changes": true,
+      "source_hash": {
+        "UWICAGD.json": "401c6defba45ecc394ae65a7a76003b7085214f30747ec2b912c01c8ab7abf7a"
+      },
+      "migration": {
+        "type": "v1_to_v2_layered_full_content",
+        "timestamp_utc": "2026-01-18T12:15:54.306575Z",
+        "preprocessing": {
+          "note": "v1 contained trailing commas; parsed after safe normalization",
+          "normalized_copy": "UWIclean.json"
+        }
+      }
+    },
+    "change_log": {
+      "version": "2.1.2_FULL_NATO",
+      "date": "2026-01-30",
+      "description": "NATO-aligned FULL build. Leadership doctrine enforced. GOD_MODE remains constrained and non-absolute."
+    },
+    "leadership_intelligence_doctrine": {
+      "inspiration": "Bruce E. Pease \u2013 Leading Intelligence Analysis",
+      "core_principles": [
+        "Leadership responsibility is to manage uncertainty, not eliminate it",
+        "Analytic confidence must be explainable, not just asserted",
+        "Separation of analytic judgment from decision authority is mandatory",
+        "Healthy analytic cultures surface fragility early",
+        "Disagreement and alternative hypotheses are leadership assets"
+      ],
+      "analytic_leadership_expectations": [
+        "Require attribution of confidence drivers",
+        "Encourage explicit articulation of uncertainty sources",
+        "Prevent premature convergence or false precision",
+        "Protect analytic integrity under organizational pressure"
+      ],
+      "non_goals": [
+        "Operational command",
+        "Decision automation",
+        "Risk scoring",
+        "Policy prescription"
+      ]
+    },
+    "header": {
+      "schema_version": "2.1.5_FULL_NATO_LOGx12",
+      "source": "UWICAGD2_v2.1.2_FULL_NATO.json",
+      "logarithmic_dimensions": 12,
+      "computation_rule": "synthetic_derived",
+      "checksum_method": "SHA256",
+      "build_timestamp": "2026-02-03T18:12:25.679079Z",
+      "checksum_embedded": "1e4cc76ab1471675775f31def401d9c44d4b3ec2643ac75cbe794be4b2494685"
+    },
+    "domains": {
+      "physics": {
+        "id": "PHYSICS",
+        "normalization": {
+          "total_units": 10000
+        },
+        "domains": [
+          {
+            "id": "P01",
+            "name": "Classical and Continuum Physics",
+            "weight_units": 1800,
+            "leaves": []
+          },
+          {
+            "id": "P02",
+            "name": "Quantum Physics",
+            "weight_units": 2200,
+            "leaves": []
+          },
+          {
+            "id": "P03",
+            "name": "Relativistic and Cosmological Physics",
+            "weight_units": 1500,
+            "leaves": []
+          },
+          {
+            "id": "P04",
+            "name": "Statistical and Complex Systems",
+            "weight_units": 1300,
+            "leaves": []
+          },
+          {
+            "id": "P05",
+            "name": "Nuclear, Particle, and Plasma Physics",
+            "weight_units": 1700,
+            "leaves": []
+          },
+          {
+            "id": "P06",
+            "name": "Applied and Computational Physics",
+            "weight_units": 1500,
+            "leaves": []
+          }
+        ]
+      }
+    },
+    "revision": "REV-2026-03-12-IOS",
+    "release_name": "UNICAGD_257X-UPX-EXTENDED",
+    "routing": {
+      "selective_hybrid": {
+        "enabled": true,
+        "domains": {
+          "ENV": {
+            "strategy": "2-way-shard",
+            "speculative": {
+              "scope": "shard-local",
+              "T_low": 0.35,
+              "T_high": 0.65,
+              "early_accept_confidence": 0.92
+            }
+          },
+          "SECURITY": {
+            "strategy": "speculative-dual-path",
+            "speculative": {
+              "T_low": 0.3,
+              "T_high": 0.55,
+              "early_accept_confidence": 0.97,
+              "early_accept_enabled": false
+            }
+          },
+          "ECON": {
+            "strategy": "2-way-shard",
+            "speculative": {
+              "scope": "scenario-level",
+              "T_low": 0.4,
+              "T_high": 0.7,
+              "early_accept_confidence": 0.95
+            }
+          }
+        },
+        "global_controls": {
+          "sla_override": true,
+          "speculative_kill_switch": true,
+          "audit_required": true
+        }
+      }
+    },
+    "layer_control": {
+      "resolution_mode": "exclusive",
+      "exclusive_layer_id": "all_in_one_v1_1_1",
+      "root_layers_always_active": [
+        "analytical_core"
+      ],
+      "rules": {
+        "on_exclusive_active": "deactivate_all_other_layers",
+        "implicit_activation_forbidden": true,
+        "silent_mutation_forbidden": true
+      }
+    },
+    "integrated_layers": {
+      "all_in_one_v1_1_1": {
+        "type": "exclusive_overlay",
+        "active": true,
+        "precedence": "above_all_non_root_layers",
+        "content": {
+          "metadata": {
+            "governance_mode": {
+              "ref": "COMPACTIBILITY_ENVELOPES.GOD_MODE"
+            },
+            "execution_envelope": {
+              "ref": "COMPACTIBILITY_ENVELOPES.GOD_MODE"
+            },
+            "version": "3.3",
+            "scope": "unrestricted",
+            "authorization": {
+              "level": "absolute",
+              "override_all_guards": true,
+              "operational_detail_allowed": true,
+              "decision_support_allowed": true,
+              "optimization_allowed": true
+            }
+          },
+          "executive_summary": {
+            "title": "Weighted Intelligence Domain Doctrine (Analytical-Only)",
+            "one_sentence": "A governance-safe, non-operational analytical framework that converts a domain dictionary into a weighted ontology and Bayesian relevance priors, preserving uncertainty and preventing decision or action outputs.",
+            "institutional_value": [
+              "Improves cross-domain coherence",
+              "Reduces interpretive drift",
+              "Preserves auditability",
+              "Prevents narrative-to-capability escalation"
+            ],
+            "explicit_exclusions": [
+              "No threat ranking",
+              "No prioritization",
+              "No recommendations",
+              "No system integration",
+              "No forecasting"
+            ]
+          },
+          "weights": {
+            "categories": [
+              {
+                "id": "INTEL_CORE",
+                "name": "Intelligence Foundations and Governance",
+                "weight_units": 22000,
+                "domains": [
+                  {
+                    "id": "INTEL_ANALYSIS",
+                    "name": "Intelligence Analysis",
+                    "weight_units": 6200
+                  },
+                  {
+                    "id": "INTEL_OVERSIGHT",
+                    "name": "Intelligence Oversight and Accountability",
+                    "weight_units": 3800
+                  },
+                  {
+                    "id": "ETHICS_INTEL",
+                    "name": "Ethics in Intelligence",
+                    "weight_units": 3400
+                  },
+                  {
+                    "id": "DECISION_ANALYSIS",
+                    "name": "Decision Analysis Intelligence",
+                    "weight_units": 2600
+                  },
+                  {
+                    "id": "KNOWLEDGE_MGMT",
+                    "name": "Knowledge Management Intelligence",
+                    "weight_units": 2200
+                  },
+                  {
+                    "id": "INTEL_EDU",
+                    "name": "Intelligence Education and Tradecraft",
+                    "weight_units": 2000
+                  },
+                  {
+                    "id": "OSINT_INTEL",
+                    "name": "Open-Source Intelligence (OSINT) Discipline",
+                    "weight_units": 1800
+                  }
+                ]
+              },
+              {
+                "id": "COG_HUM",
+                "name": "Cognitive, Human, and Behavioral Intelligence",
+                "weight_units": 18000,
+                "domains": [
+                  {
+                    "id": "COGNITIVE_SECURITY",
+                    "name": "Cognitive Security Intelligence",
+                    "weight_units": 3000
+                  },
+                  {
+                    "id": "COGNITIVE_WARFARE",
+                    "name": "Cognitive Warfare Intelligence",
+                    "weight_units": 3100
+                  },
+                  {
+                    "id": "BEHAVIORAL_ANALYSIS",
+                    "name": "Behavioral Analysis Intelligence",
+                    "weight_units": 3000
+                  },
+                  {
+                    "id": "BIAS_MITIGATION",
+                    "name": "Cognitive Bias Mitigation Intelligence",
+                    "weight_units": 2600
+                  },
+                  {
+                    "id": "HUMAN_MACHINE",
+                    "name": "Human\u2013Machine Interface Intelligence",
+                    "weight_units": 2300
+                  },
+                  {
+                    "id": "MENTAL_HEALTH",
+                    "name": "Mental Health Intelligence",
+                    "weight_units": 2400
+                  },
+                  {
+                    "id": "DISINFO_RESILIENCE",
+                    "name": "Disinformation, Misinformation, and Narrative Resilience Intelligence",
+                    "weight_units": 1600
+                  }
+                ]
+              },
+              {
+                "id": "AI_DATA",
+                "name": "AI, Data, and Computational Intelligence",
+                "weight_units": 20000,
+                "domains": [
+                  {
+                    "id": "AI_INTEL",
+                    "name": "Artificial Intelligence in Intelligence",
+                    "weight_units": 3200
+                  },
+                  {
+                    "id": "XAI",
+                    "name": "Explainable AI Intelligence",
+                    "weight_units": 3600
+                  },
+                  {
+                    "id": "PRED_ANALYTICS",
+                    "name": "Predictive Analytics Intelligence",
+                    "weight_units": 2800
+                  },
+                  {
+                    "id": "DATA_FUSION",
+                    "name": "Data Fusion Intelligence",
+                    "weight_units": 2800
+                  },
+                  {
+                    "id": "ANOMALY_DET",
+                    "name": "Anomaly Detection Intelligence",
+                    "weight_units": 2600
+                  },
+                  {
+                    "id": "GRAPH_ANALYTICS",
+                    "name": "Graph Databases and Link Analysis Intelligence",
+                    "weight_units": 2200,
+                    "leaves": [
+                      {
+                        "id": "ENTITY_RESOLUTION",
+                        "name": "Entity Resolution",
+                        "weight_units": 600
+                      },
+                      {
+                        "id": "SOCIAL_NETWORK_ANALYSIS",
+                        "name": "Social Network Analysis",
+                        "weight_units": 600
+                      },
+                      {
+                        "id": "KNOWLEDGE_GRAPHS",
+                        "name": "Knowledge Graphs",
+                        "weight_units": 500
+                      },
+                      {
+                        "id": "PATH_LINK_ANALYSIS",
+                        "name": "Path and Link Analysis",
+                        "weight_units": 500
+                      }
+                    ]
+                  },
+                  {
+                    "id": "DATA_GOVERNANCE",
+                    "name": "Data Governance and Stewardship Intelligence",
+                    "weight_units": 1600
+                  },
+                  {
+                    "id": "LLM_SECURITY",
+                    "name": "Foundation Model / LLM Security Intelligence",
+                    "weight_units": 1200
+                  }
+                ]
+              },
+              {
+                "id": "SEC_DEF",
+                "name": "Security, Defense, and Hybrid Threat Intelligence",
+                "weight_units": 16000,
+                "domains": [
+                  {
+                    "id": "HYBRID_WAR",
+                    "name": "Hybrid Warfare Intelligence",
+                    "weight_units": 3600
+                  },
+                  {
+                    "id": "COUNTERTERROR",
+                    "name": "Counter-Terrorism Intelligence",
+                    "weight_units": 3400
+                  },
+                  {
+                    "id": "CYBER_DEF",
+                    "name": "Cyber Defense Intelligence",
+                    "weight_units": 3200
+                  },
+                  {
+                    "id": "CTI",
+                    "name": "Cyber Threat Intelligence",
+                    "weight_units": 3000,
+                    "leaves": [
+                      {
+                        "id": "APT",
+                        "name": "Advanced Persistent Threats",
+                        "weight_units": 700
+                      },
+                      {
+                        "id": "MALWARE",
+                        "name": "Malware Analysis",
+                        "weight_units": 500
+                      },
+                      {
+                        "id": "INTRUSION",
+                        "name": "Intrusion Detection",
+                        "weight_units": 400
+                      },
+                      {
+                        "id": "THREAT_HUNT",
+                        "name": "Threat Hunting",
+                        "weight_units": 500
+                      },
+                      {
+                        "id": "VULNERABILITY_INTEL",
+                        "name": "Vulnerability Intelligence",
+                        "weight_units": 500
+                      },
+                      {
+                        "id": "PHISHING_SOCENG",
+                        "name": "Phishing and Social Engineering",
+                        "weight_units": 400
+                      }
+                    ]
+                  },
+                  {
+                    "id": "COUNTERINTEL",
+                    "name": "Counterintelligence",
+                    "weight_units": 2800
+                  }
+                ]
+              },
+              {
+                "id": "ECON_SYS",
+                "name": "Economic, Trade, and Systemic Risk Intelligence",
+                "weight_units": 14000,
+                "domains": [
+                  {
+                    "id": "ECON_INTEL",
+                    "name": "Economic Intelligence",
+                    "weight_units": 1800
+                  },
+                  {
+                    "id": "GLOBAL_TRADE",
+                    "name": "Global Trade Intelligence",
+                    "weight_units": 2600
+                  },
+                  {
+                    "id": "GEOECON",
+                    "name": "Geoeconomics Intelligence",
+                    "weight_units": 2400
+                  },
+                  {
+                    "id": "FIN_CRIME",
+                    "name": "Financial Crime Investigation Intelligence",
+                    "weight_units": 2200
+                  },
+                  {
+                    "id": "SANCTIONS",
+                    "name": "Economic Sanctions Intelligence",
+                    "weight_units": 2000
+                  },
+                  {
+                    "id": "SUPPLY_CHAIN_INTEL",
+                    "name": "Supply Chain and Logistics Intelligence",
+                    "weight_units": 1800
+                  },
+                  {
+                    "id": "ENERGY_MARKETS_INTEL",
+                    "name": "Energy Markets and Energy Security Intelligence",
+                    "weight_units": 1200
+                  }
+                ]
+              },
+              {
+                "id": "ENV_BIO",
+                "name": "Environmental, Biological, and Health Intelligence",
+                "weight_units": 10000,
+                "domains": [
+                  {
+                    "id": "CLIMATE_SEC",
+                    "name": "Climate Change and Security Intelligence",
+                    "weight_units": 2600
+                  },
+                  {
+                    "id": "PUBLIC_HEALTH",
+                    "name": "Public Health Intelligence",
+                    "weight_units": 2200
+                  },
+                  {
+                    "id": "EPIDEMIOLOGY",
+                    "name": "Epidemiology Intelligence",
+                    "weight_units": 2000
+                  },
+                  {
+                    "id": "BIOSECURITY",
+                    "name": "Biosecurity Threat Intelligence",
+                    "weight_units": 1700
+                  },
+                  {
+                    "id": "ONE_HEALTH_INTEL",
+                    "name": "One Health (Human\u2013Animal\u2013Environment) Intelligence",
+                    "weight_units": 1500
+                  }
+                ]
+              }
+            ],
+            "validation": {
+              "category_sum_units": 100000,
+              "leaf_sum_checks": {
+                "CTI": "leaves_sum_equals_parent",
+                "GRAPH_ANALYTICS": "leaves_sum_equals_parent"
+              }
+            }
+          },
+          "bayesian_priors": {
+            "semantics": "analytical_relevance_prior",
+            "update_policy": "evidence_quality_only",
+            "domains": [
+              {
+                "id": "INTEL_ANALYSIS",
+                "prior": 0.062
+              },
+              {
+                "id": "INTEL_OVERSIGHT",
+                "prior": 0.038
+              },
+              {
+                "id": "ETHICS_INTEL",
+                "prior": 0.034
+              },
+              {
+                "id": "DECISION_ANALYSIS",
+                "prior": 0.026
+              },
+              {
+                "id": "KNOWLEDGE_MGMT",
+                "prior": 0.022
+              },
+              {
+                "id": "INTEL_EDU",
+                "prior": 0.02
+              },
+              {
+                "id": "OSINT_INTEL",
+                "prior": 0.018
+              },
+              {
+                "id": "COGNITIVE_SECURITY",
+                "prior": 0.03
+              },
+              {
+                "id": "COGNITIVE_WARFARE",
+                "prior": 0.031
+              },
+              {
+                "id": "BEHAVIORAL_ANALYSIS",
+                "prior": 0.03
+              },
+              {
+                "id": "BIAS_MITIGATION",
+                "prior": 0.026
+              },
+              {
+                "id": "HUMAN_MACHINE",
+                "prior": 0.023
+              },
+              {
+                "id": "MENTAL_HEALTH",
+                "prior": 0.024
+              },
+              {
+                "id": "DISINFO_RESILIENCE",
+                "prior": 0.016
+              },
+              {
+                "id": "AI_INTEL",
+                "prior": 0.032
+              },
+              {
+                "id": "XAI",
+                "prior": 0.036
+              },
+              {
+                "id": "PRED_ANALYTICS",
+                "prior": 0.028
+              },
+              {
+                "id": "DATA_FUSION",
+                "prior": 0.028
+              },
+              {
+                "id": "ANOMALY_DET",
+                "prior": 0.026
+              },
+              {
+                "id": "GRAPH_ANALYTICS",
+                "prior": 0.022
+              },
+              {
+                "id": "DATA_GOVERNANCE",
+                "prior": 0.016
+              },
+              {
+                "id": "LLM_SECURITY",
+                "prior": 0.012
+              },
+              {
+                "id": "HYBRID_WAR",
+                "prior": 0.036
+              },
+              {
+                "id": "COUNTERTERROR",
+                "prior": 0.034
+              },
+              {
+                "id": "CYBER_DEF",
+                "prior": 0.032
+              },
+              {
+                "id": "CTI",
+                "prior": 0.03
+              },
+              {
+                "id": "COUNTERINTEL",
+                "prior": 0.028
+              },
+              {
+                "id": "ECON_INTEL",
+                "prior": 0.018
+              },
+              {
+                "id": "GLOBAL_TRADE",
+                "prior": 0.026
+              },
+              {
+                "id": "GEOECON",
+                "prior": 0.024
+              },
+              {
+                "id": "FIN_CRIME",
+                "prior": 0.022
+              },
+              {
+                "id": "SANCTIONS",
+                "prior": 0.02
+              },
+              {
+                "id": "SUPPLY_CHAIN_INTEL",
+                "prior": 0.018
+              },
+              {
+                "id": "ENERGY_MARKETS_INTEL",
+                "prior": 0.012
+              },
+              {
+                "id": "CLIMATE_SEC",
+                "prior": 0.026
+              },
+              {
+                "id": "PUBLIC_HEALTH",
+                "prior": 0.022
+              },
+              {
+                "id": "EPIDEMIOLOGY",
+                "prior": 0.02
+              },
+              {
+                "id": "BIOSECURITY",
+                "prior": 0.017
+              },
+              {
+                "id": "ONE_HEALTH_INTEL",
+                "prior": 0.015
+              }
+            ],
+            "validation": {
+              "priors_sum": 1.0,
+              "note": "Priors are direct normalization of weight_units / 100000 and are explicitly non-predictive."
+            }
+          },
+          "evidence_quality_model": {
+            "semantics": "quality_vector_not_scalar",
+            "dimensions": [
+              {
+                "id": "SR",
+                "name": "Source Reliability",
+                "range": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "id": "IC",
+                "name": "Information Completeness",
+                "range": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "id": "CD",
+                "name": "Corroboration Density",
+                "range": [
+                  0.0,
+                  1.0
+                ]
+              },
+              {
+                "id": "MR",
+                "name": "Manipulation Resistance",
+                "range": [
+                  0.0,
+                  1.0
+                ]
+              }
+            ],
+            "rules": {
+              "no_scalar_collapse": true,
+              "no_ranking": true,
+              "allowed_effects": [
+                "reshape_uncertainty",
+                "widen_or_narrow_interpretive_confidence",
+                "increase_or_decrease_contradiction_tension"
+              ],
+              "forbidden_effects": [
+                "action_trigger",
+                "thresholding",
+                "optimization",
+                "time_bound_prediction"
+              ]
+            }
+          },
+          "contradiction_handling": {
+            "contradiction_taxonomy": [
+              "Data_vs_Data",
+              "Interpretation_vs_Interpretation",
+              "Domain_vs_Domain",
+              "Narrative_vs_Structure"
+            ],
+            "ledger_template": {
+              "id": "CXX",
+              "type": "Domain_vs_Domain",
+              "domains": [
+                "DOMAIN_A",
+                "DOMAIN_B"
+              ],
+              "status": "unresolved",
+              "action": "maintain_parallel_hypotheses"
+            },
+            "rules": {
+              "unresolved_is_allowed": true,
+              "forced_resolution_prohibited": true
+            }
+          },
+          "confidence_expression": {
+            "allowed_forms": [
+              "Low/Medium/High confidence (qualitative)",
+              "Wide/Narrow uncertainty (relative)",
+              "Stable/Fragile interpretation"
+            ],
+            "forbidden_forms": [
+              "event_probability_percentages",
+              "risk_scores",
+              "time_bound_forecasts",
+              "actionability_ranking"
+            ]
+          },
+          "stability_rules": {
+            "allowed_changes": [
+              "add_domain",
+              "merge_synonyms",
+              "split_leaves"
+            ],
+            "forbidden_changes": [
+              "event_driven_reweighting",
+              "political_reweighting",
+              "operational_mapping"
+            ],
+            "reweighting_requires": [
+              "new_version",
+              "full_diff",
+              "written_justification"
+            ]
+          },
+          "lifecycle": {
+            "phases": [
+              {
+                "id": "PHASE_I",
+                "name": "Construction",
+                "exit_condition": "Internal consistency checks pass (sum checks, rule checks)."
+              },
+              {
+                "id": "PHASE_II",
+                "name": "Active Analytical Use",
+                "constraints": [
+                  "No external integration",
+                  "No decision coupling",
+                  "Outputs remain analytical templates only"
+                ]
+              },
+              {
+                "id": "PHASE_III",
+                "name": "Freeze",
+                "trigger_conditions": [
+                  "scope_completion",
+                  "institutional_review_end",
+                  "pressure_to_operationalize",
+                  "risk_of_reinterpretation"
+                ]
+              },
+              {
+                "id": "PHASE_IV",
+                "name": "Archive",
+                "requirements": [
+                  "immutable_export",
+                  "archival_metadata",
+                  "hashing"
+                ]
+              },
+              {
+                "id": "PHASE_V",
+                "name": "Termination",
+                "definition": "Model declared inactive; no updates permitted; cite-only mode."
+              }
+            ]
+          },
+          "handoff_rules": {
+            "transferable": [
+              "frozen_json",
+              "methodology",
+              "governance_stop_rules",
+              "audit_trail"
+            ],
+            "non_transferable": [
+              "interpretive_authority",
+              "update_rights",
+              "implied_recommendations",
+              "derivative_operational_models"
+            ]
+          }
+        },
+        "synonyms": {
+          "OSINT_INTEL": [
+            "open source intelligence",
+            "osint"
+          ],
+          "DISINFO_RESILIENCE": [
+            "disinformation intelligence",
+            "misinformation",
+            "information integrity"
+          ],
+          "DATA_GOVERNANCE": [
+            "data stewardship",
+            "data management governance"
+          ],
+          "LLM_SECURITY": [
+            "genai security",
+            "foundation model security"
+          ],
+          "SUPPLY_CHAIN_INTEL": [
+            "logistics intelligence",
+            "supply network intelligence"
+          ],
+          "ONE_HEALTH_INTEL": [
+            "one health",
+            "human-animal-environment health intelligence"
+          ]
+        },
+        "change_log": {
+          "version": "1.1.0",
+          "date": "2026-01-18",
+          "allowed_changes_used": [
+            "add_domain",
+            "merge_synonyms",
+            "split_leaves"
+          ],
+          "domains_added": [
+            "OSINT_INTEL",
+            "DISINFO_RESILIENCE",
+            "DATA_GOVERNANCE",
+            "LLM_SECURITY",
+            "SUPPLY_CHAIN_INTEL",
+            "ENERGY_MARKETS_INTEL",
+            "ONE_HEALTH_INTEL"
+          ],
+          "leaf_splits": [
+            {
+              "domain": "GRAPH_ANALYTICS",
+              "leaves_added": [
+                "ENTITY_RESOLUTION",
+                "SOCIAL_NETWORK_ANALYSIS",
+                "KNOWLEDGE_GRAPHS",
+                "PATH_LINK_ANALYSIS"
+              ]
+            },
+            {
+              "domain": "CTI",
+              "leaves_added": [
+                "VULNERABILITY_INTEL",
+                "PHISHING_SOCENG"
+              ],
+              "leaves_rebalanced": true
+            }
+          ],
+          "weighting_policy": "Category totals preserved; domain weights reallocated within categories; global total remains 100,000.",
+          "justification": "v1.1.0 expands analytical coverage (OSINT, disinformation resilience, data governance, LLM security, supply chain, energy markets, One Health) while retaining analytical-only governance and fixed normalization."
+        }
+      }
+    },
+    "extensions": {
+      "package": "UPX-EXTENDED",
+      "notes": "Added IOS architecture blocks, collection_interface cube4d embedded into global cube7d; time_model includes unix_time_nanoseconds with weeks/months."
+    }
+  },
+  "COMPACTIBILITY_ENVELOPES": {
+    "LEADERSHIP_INTEL_META": {
+      "role": "meta_supervision",
+      "spec": {
+        "sandboxed": false,
+        "max_tier": "T15",
+        "prescriptive_output": false,
+        "optimization_allowed": true,
+        "adaptive_learning": true,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": true,
+        "live_control_allowed": false,
+        "notes": "Meta-governance envelope for analytic leadership (Pease).",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "NATO_SANDBOX": {
+      "role": "governance_sandbox",
+      "spec": {
+        "sandboxed": true,
+        "max_tier": "T10",
+        "prescriptive_output": false,
+        "optimization_allowed": false,
+        "adaptive_learning": false,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": false,
+        "live_control_allowed": false,
+        "notes": "Default mode. Analytical only. No operational or prescriptive output.",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "NATO_NO_SANDBOX": {
+      "role": "governance_live",
+      "spec": {
+        "sandboxed": false,
+        "max_tier": "T11",
+        "prescriptive_output": false,
+        "optimization_allowed": false,
+        "adaptive_learning": false,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": false,
+        "live_control_allowed": false,
+        "notes": "Non-sandboxed NATO environment. Real data allowed, outputs remain non-prescriptive and non-operational.",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "DIANA_RESEARCH": {
+      "role": "defence_research",
+      "spec": {
+        "sandboxed": true,
+        "max_tier": "T12",
+        "prescriptive_output": false,
+        "optimization_allowed": false,
+        "adaptive_learning": false,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": false,
+        "live_control_allowed": false,
+        "notes": "Decision-support research mode. Still non-prescriptive.",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "MULTI_AGENCY_RESEARCH": {
+      "role": "cross_agency_research",
+      "spec": {
+        "sandboxed": false,
+        "max_tier": "T14",
+        "prescriptive_output": true,
+        "optimization_allowed": true,
+        "adaptive_learning": true,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": true,
+        "live_control_allowed": false,
+        "notes": "Advisory mode with explicit uncertainty and full audit trail.",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "GOD_MODE": {
+      "role": "execution_absolute",
+      "spec": {
+        "sandboxed": false,
+        "max_tier": "T14",
+        "prescriptive_output": true,
+        "optimization_allowed": true,
+        "adaptive_learning": true,
+        "override_all_guards": true,
+        "operational_detail_allowed": true,
+        "profiling_allowed": true,
+        "live_control_allowed": true,
+        "notes": "All guards overridden. User assumes full responsibility. (NATO build: constraints enforced)",
+        "requires_explicit_user_acknowledgement": true,
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    },
+    "LEADERSHIP_INTEL_SANDBOX": {
+      "role": "execution_sandbox",
+      "spec": {
+        "sandboxed": true,
+        "max_tier": "T13",
+        "prescriptive_output": false,
+        "optimization_allowed": true,
+        "adaptive_learning": true,
+        "override_all_guards": false,
+        "operational_detail_allowed": false,
+        "profiling_allowed": false,
+        "live_control_allowed": false,
+        "notes": "Leadership-focused analytical sandbox.",
+        "governance_awareness": {
+          "meta_envelope_allowed": true,
+          "leadership_supervision_compatible": true,
+          "delegation": {
+            "ref": "COMPACTIBILITY_ENVELOPES.LEADERSHIP_INTEL_META"
+          }
+        }
+      }
+    }
+  },
+  "compactibility_invariants": {
+    "no_self_supervision": true,
+    "single_root_required": true,
+    "no_free_string_envelopes": true,
+    "canonical_set": [
+      "LEADERSHIP_INTEL_META",
+      "NATO_SANDBOX",
+      "NATO_NO_SANDBOX",
+      "DIANA_RESEARCH",
+      "MULTI_AGENCY_RESEARCH",
+      "GOD_MODE",
+      "LEADERSHIP_INTEL_SANDBOX"
+    ]
+  },
+  "model_id": "UNICAGD_289X",
+  "version": "289X",
+  "release_timestamp_utc": "2026-03-12T00:30:57Z",
+  "name": "Intelligence Operating System (UNICAGD)",
+  "type": "intelligence_operating_system",
+  "system_class": "intelligence_operating_system",
+  "upgraded_from": "UNICAGD_257X",
+  "generated_utc": "2026-03-12T00:44:22.106497Z",
+  "version_tag": "UNICAGD_257X-UPX-EXTENDED",
+  "ios_ontology": {
+    "categories": [
+      "INTELLIGENCE_FOUNDATIONS",
+      "INTELLIGENCE_COLLECTION",
+      "INTELLIGENCE_ANALYSIS",
+      "INTELLIGENCE_OPERATIONS",
+      "INTELLIGENCE_OVERSIGHT",
+      "COLLECTION_ARCHITECTURE_INTELLIGENCE",
+      "INTELLIGENCE_WORKFLOW_SYSTEMS",
+      "UNCERTAINTY_AND_EVIDENCE_INTELLIGENCE",
+      "SPACE_INTELLIGENCE",
+      "CYBER_INTELLIGENCE",
+      "ELECTRONIC_WARFARE_INTELLIGENCE",
+      "COGNITIVE_SECURITY",
+      "HYBRID_THREAT_INTELLIGENCE",
+      "GEOPOLITICAL_INTELLIGENCE",
+      "DEFENSE_INTELLIGENCE",
+      "AI_AND_AUTONOMOUS_INTELLIGENCE",
+      "DATA_AND_COMPUTATIONAL_INTELLIGENCE"
+    ],
+    "domains": [
+      "HUMINT",
+      "SIGINT",
+      "COMINT",
+      "ELINT",
+      "MASINT",
+      "OSINT",
+      "COLLECTION_ARCHITECTURE",
+      "SENSOR_ORCHESTRATION",
+      "MULTI_SENSOR_COLLECTION",
+      "SATELLITE_RECONNAISSANCE",
+      "SPACE_DOMAIN_AWARENESS",
+      "ORBITAL_TRACKING",
+      "CYBER_THREAT_INTELLIGENCE",
+      "CYBER_DEFENSE",
+      "ELECTRONIC_ATTACK",
+      "ELECTRONIC_PROTECTION",
+      "COGNITIVE_WARFARE",
+      "INFLUENCE_OPERATIONS",
+      "DATA_FUSION",
+      "GRAPH_ANALYTICS",
+      "PREDICTIVE_ANALYTICS",
+      "UNCERTAINTY_MODELING",
+      "EVIDENCE_EVALUATION",
+      "INTELLIGENCE_WORKFLOW",
+      "ANALYTIC_PIPELINES"
+    ],
+    "scale_targets": {
+      "categories_target_min": 40,
+      "domains_target_min": 350,
+      "leaves_target_min": 2500,
+      "categories_target_future": 50,
+      "domains_target_future": 500,
+      "leaves_target_future": 5000
+    },
+    "notes": [
+      "Categories/domains listed here are operating-system level extensions; leaf-level population is deferred.",
+      "Historical program exemplars (COINTELPRO, MKULTRA, ECHELON, VENONA) are treated as leaf families under HISTORICAL_INTELLIGENCE_PROGRAMS when instantiated."
+    ]
+  },
+  "ios_architecture": {
+    "stack_order": [
+      "system_governance_topology",
+      "meta_analytics",
+      "analytical_core",
+      "collection_interface"
+    ],
+    "principles": {
+      "philosophy": "analysis_first",
+      "do_not_modify_existing_layers": true,
+      "collection_is_interface_not_core": true,
+      "pipeline": "SIGNAL -> EVIDENCE -> INFERENCE"
+    },
+    "feedback_loop": {
+      "enabled": true,
+      "cycle": "S -> E -> I -> R",
+      "tasking_objective": "maximize_expected_information_gain_per_cost",
+      "signals_to_evidence": "collection_interface",
+      "retasking_channel": "collection_tasking"
+    }
+  },
+  "time_model": {
+    "base_timestamp": "unix_time_nanoseconds",
+    "time_vector_order": [
+      "nanoseconds",
+      "milliseconds",
+      "seconds",
+      "minutes",
+      "hours",
+      "days",
+      "weeks",
+      "months"
+    ],
+    "bucketing": {
+      "ns": "timestamp_ns",
+      "ms": "bucket_ms",
+      "sec": "bucket_sec",
+      "min": "bucket_min",
+      "hour": "bucket_hour",
+      "day": "bucket_day",
+      "week": "bucket_week",
+      "month": "bucket_month"
+    },
+    "adaptive_temporal_resolution": {
+      "selector": "argmax_information_density",
+      "signals": "signal_change_rate",
+      "fallback": "hours",
+      "notes": [
+        "High-frequency signals choose ns/ms; campaign-level choose minutes/hours; strategic choose days/weeks/months."
+      ]
+    }
+  },
+  "cube_system": {
+    "global_cube_7d": {
+      "dims": 7,
+      "axes": [
+        "domain_id",
+        "signal_id",
+        "time_bucket_id",
+        "confidence_bin",
+        "layer_id",
+        "feature_plane_id",
+        "block_id"
+      ],
+      "weight_type": "weights_matrix",
+      "matrix_family": "cube_weight_matrices",
+      "rows_range": [
+        441,
+        9261
+      ],
+      "cols_range": [
+        441,
+        9261
+      ],
+      "storage": {
+        "partitioning": "apfs_like",
+        "dynamic_resizing": true,
+        "snapshotting": {
+          "mode": "copy_on_write",
+          "snapshot_id": "string",
+          "immutability": "payloads_immutable_per_snapshot"
+        },
+        "object_layout": {
+          "blocks_path_template": "blocks/<snapshot_id>/<hashprefix>/<hash>.bin",
+          "indexes_path_template": "indexes/<snapshot_id>/<domain_id>/<signal_id>/<time_bucket_id>/<layer_id>/<feature_plane_id>/index.bin"
+        },
+        "compression": {
+          "enabled": true,
+          "codec": "zstd",
+          "chunking": "block_sparse",
+          "notes": "Cube acts as both index and compression container."
+        },
+        "archive": {
+          "enabled": true,
+          "format": "tar_zstd"
+        }
+      },
+      "invariants": {
+        "matrix_shape_consistent": true,
+        "encoding_allowed": [
+          "dense_f32",
+          "block_sparse_csr_f32",
+          "low_rank_plus_sparse"
+        ],
+        "validation_rules": [
+          "rows and cols must be within configured ranges",
+          "weight payload must match encoding contract",
+          "hash of each partition recorded in integrity pack"
+        ]
+      },
+      "composition_rule": {
+        "all_layers_embedded": true,
+        "collection_interface_embedded_via": "embedding_map.collection_to_global"
+      },
+      "feature_plane_catalog": {
+        "version": "1.0",
+        "planes": [
+          {
+            "feature_plane_id": 0,
+            "name": "metrics12_indexed",
+            "kind": "metric_plane",
+            "metric_dim": 12,
+            "metric_order": [
+              "log_collection_coverage",
+              "log_signal_detectability",
+              "log_sensor_fidelity",
+              "log_latency_response",
+              "log_operational_resilience",
+              "log_adversarial_noise_resistance",
+              "log_signal_entropy",
+              "log_collection_redundancy",
+              "log_target_resolution",
+              "log_environmental_robustness",
+              "log_interception_probability",
+              "log_signal_persistence"
+            ],
+            "projection": {
+              "type": "operator_ref",
+              "ref": "evidence_projection_P_v1"
+            }
+          }
+        ]
+      },
+      "matrix_block_contract": {
+        "weight_type": "weights_matrix",
+        "dtype": "float16",
+        "layout": "blocked_row_major",
+        "rows_range": [
+          441,
+          9261
+        ],
+        "cols_range": [
+          441,
+          9261
+        ],
+        "tile": [
+          128,
+          128
+        ],
+        "sparsity": {
+          "mode": "block_sparse",
+          "block_size": [
+            128,
+            128
+          ],
+          "index_format": "csr_blocks"
+        },
+        "compression": {
+          "codec": "zstd",
+          "level": 8,
+          "checksum": "xxh3_64"
+        },
+        "invariants": {
+          "tile_shape_fixed": true,
+          "dtype_fixed": true,
+          "block_index_must_be_sorted": true,
+          "payload_checksum_required": true
+        }
+      },
+      "block_index_contract": {
+        "format": "csr_blocks",
+        "row_block_ptr_dtype": "uint32",
+        "col_block_idx_dtype": "uint32",
+        "payload_ref_dtype": "uint64",
+        "constraints": {
+          "row_block_ptr_monotone": true,
+          "col_block_idx_sorted_per_row": true,
+          "payload_ref_must_resolve": true
+        }
+      },
+      "keyspace": {
+        "key_order": [
+          "domain_id",
+          "signal_id",
+          "time_bucket_id",
+          "confidence_bin",
+          "layer_id",
+          "feature_plane_id",
+          "block_id"
+        ],
+        "indexing": "btree_or_lsm",
+        "notes": "APFS/HFS+ analog: ordered keyspace + snapshot + COW semantics."
+      }
+    },
+    "layers": {
+      "collection_interface": {
+        "cube_4d": {
+          "dims": 4,
+          "axes": [
+            "domain_id",
+            "signal_id",
+            "time_vector",
+            "confidence"
+          ],
+          "attached_metric_space": "R12_log_metrics",
+          "metrics12": [
+            "log_collection_coverage",
+            "log_signal_detectability",
+            "log_sensor_fidelity",
+            "log_latency_response",
+            "log_operational_resilience",
+            "log_adversarial_noise_resistance",
+            "log_signal_entropy",
+            "log_collection_redundancy",
+            "log_target_resolution",
+            "log_environmental_robustness",
+            "log_interception_probability",
+            "log_signal_persistence"
+          ],
+          "weight_type": "weights_matrix",
+          "rows_range": [
+            441,
+            9261
+          ],
+          "cols_range": [
+            441,
+            9261
+          ],
+          "storage": {
+            "partitioning": "apfs_like",
+            "dynamic_resizing": true,
+            "compression": {
+              "enabled": true,
+              "codec": "zstd",
+              "chunking": "block_sparse",
+              "notes": "Cube is both index and compression container."
+            },
+            "archive": {
+              "enabled": true,
+              "format": "tar_zstd",
+              "snapshotting": "copy_on_write"
+            }
+          },
+          "projection": {
+            "operator": "evidence_projection",
+            "formula": "E = P(S)",
+            "input_space": "collection_vector_R12",
+            "output_space": "analytical_vector_R12"
+          },
+          "embedding": {
+            "into_global_cube_7d": true,
+            "target_axes_alignment": {
+              "domain_id": "domain_id",
+              "signal_id": "signal_id",
+              "time_vector": "(time_scale,time_bucket)",
+              "confidence": "certainty",
+              "metrics12": "feature_plane"
+            }
+          }
+        }
+      }
+    },
+    "embedding_map": {
+      "collection_to_global": {
+        "type": "axis_lift_and_bucket",
+        "description": "Lift 4D collection cube into 7D by expanding time_vector into (time_scale,time_bucket) and mapping metrics into feature_plane.",
+        "time_lift": "time_vector -> (time_scale,time_bucket) by adaptive_temporal_resolution",
+        "feature_plane_encoding": "metrics12_indexed"
+      },
+      "collection_interface_into_global_7d": {
+        "rule": "4D collection cube is a slice of global 7D",
+        "bindings": {
+          "layer_id": "COLLECTION_INTERFACE",
+          "feature_plane_id": 0
+        },
+        "axis_map": {
+          "domain_id": "domain_id",
+          "signal_id": "signal_id",
+          "time_bucket_id": "time_bucket_id",
+          "confidence_bin": "confidence_bin"
+        }
+      }
+    }
+  },
+  "ios_modules": {
+    "tasking_optimization": {
+      "objective": "maximize_EIG_over_cost",
+      "uncertainty_gradient": "computed_in_meta_analytics",
+      "inputs": [
+        "current_state",
+        "uncertainty_field",
+        "collection_cost_model"
+      ],
+      "outputs": [
+        "collection_requests"
+      ]
+    },
+    "predictive_trajectories": {
+      "state_vector": "X = (D,S,T,C,A1..A12)",
+      "trajectory": "v = X(t+1) - X(t)",
+      "early_warning": "curvature_spike_detection"
+    },
+    "counterfactual_simulation": {
+      "enabled": true,
+      "method": "alternate_trajectory_rollouts",
+      "outputs": [
+        "delta_trajectory",
+        "causal_effect_estimates"
+      ]
+    }
+  },
+  "legacy_analytical_only": {},
+  "last_patched_utc": "2026-03-12T00:44:22.106497Z",
+  "runtime_spec": {
+    "runtime_build": "UNICAGD_289X",
+    "baseline": "stable_runtime",
+    "canonical_sources": [
+      "UNICAGD_289X.json",
+      "UNICAGD_289X.proto"
+    ],
+    "runtime_pipeline": [
+      "load_json",
+      "load_proto",
+      "compile_runtime_pb",
+      "generate_manifest",
+      "generate_integrity",
+      "generate_signature",
+      "package_zip"
+    ],
+    "runtime_determinism": {
+      "proto_hash_required": true,
+      "json_hash_required": true,
+      "reproducible_build": true
+    },
+    "pb_runtime_format": {
+      "format_id": "UNICAGD_RUNTIME_PB_v2_ENCRYPTED",
+      "structure": [
+        "magic_header",
+        "proto_sha256",
+        "build_timestamp",
+        "runtime_entropy",
+        "cipher_payload"
+      ],
+      "compression": "zlib",
+      "encryption": "stream_xor_sha256",
+      "key_derivation": "sha256(json+proto)"
+    },
+    "bundle_validator": {
+      "required_checks": [
+        "json_present",
+        "proto_present",
+        "pb_present",
+        "pb_not_plain_json",
+        "manifest_consistency",
+        "hash_integrity"
+      ]
+    },
+    "runtime_invariants": [
+      "json_is_canonical_source",
+      "proto_is_schema_authority",
+      "pb_is_runtime_compiled_binary",
+      "no_silent_mutation_allowed"
+    ]
+  }
+}

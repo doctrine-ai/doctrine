@@ -1,0 +1,67 @@
+
+syntax = "proto3";
+package UNICAGD_288X;
+
+message PbSignal { string id=1; string domain=2; string payload=3; }
+message PbEvidence { string id=1; string signal_id=2; float reliability=3; }
+message PbInterpretation { string id=1; string evidence_id=2; string hypothesis_id=3; }
+message PbHypothesis { string id=1; string description=2; }
+message PbContradiction { string id=1; string hypothesis_a=2; string hypothesis_b=3; }
+
+message PbCategory { string id=1; string name=2; }
+message PbDomain { string id=1; string category_id=2; }
+message PbLeaf { string id=1; string domain_id=2; }
+
+message PbOntology {
+  repeated PbCategory categories=1;
+  repeated PbDomain domains=2;
+  repeated PbLeaf leaves=3;
+}
+
+message PbFeaturePlane { string id=1; repeated string metrics=2; }
+
+message PbCube7D {
+  string domain_id=1;
+  string signal_id=2;
+  string time_bucket_id=3;
+  string confidence_bin=4;
+  string layer_id=5;
+  string feature_plane_id=6;
+  string block_id=7;
+}
+
+message PbGraphNode { string id=1; string type=2; }
+message PbGraphEdge { string source=1; string target=2; }
+
+message PbKnowledgeGraph {
+  repeated PbGraphNode nodes=1;
+  repeated PbGraphEdge edges=2;
+}
+
+message PbTask { string id=1; string name=2; }
+message PbTaskProxy { string id=1; string task_id=2; }
+message PbFamily { string id=1; string name=2; }
+message PbEdge { string source=1; string target=2; }
+
+message PbWorkflow {
+  repeated PbTask tasks=1;
+  repeated PbTaskProxy task_proxies=2;
+  repeated PbFamily families=3;
+  repeated PbEdge edges=4;
+}
+
+message PbEvent { string id=1; string type=2; int64 timestamp_ns=3; }
+message PbInferenceTrace { string hypothesis_id=1; repeated string evidence_ids=2; string confidence=3; }
+
+message PbAuditLog {
+  repeated PbEvent events=1;
+  repeated PbInferenceTrace traces=2;
+}
+
+message UNICAGDSystem {
+  PbOntology ontology=1;
+  PbCube7D cube=2;
+  PbKnowledgeGraph graph=3;
+  PbWorkflow workflow=4;
+  PbAuditLog audit_log=5;
+}

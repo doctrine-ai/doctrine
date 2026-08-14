@@ -1,0 +1,7 @@
+{
+  "package": "UNICAGD_289X",
+  "algorithm": "ed25519",
+  "key_id": "runtime-dev",
+  "signed_manifest_sha256": "a736cea83d4e2ffa2b8dddbfffac6216370d82e36bfd40b25d5997995a985ff2",
+  "signature_b64": "HkPx3ax5leXzNAlO4MbqsGSv94pGmOqOMQAFcOdrhd8="
+}

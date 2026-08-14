@@ -1,0 +1,24 @@
+{
+  "package": "UNICAGD_289X",
+  "generated_utc": "2026-03-12T16:22:22Z",
+  "files": [
+    {
+      "name": "UNICAGD_289X.json",
+      "size_bytes": 49738,
+      "sha256": "d6aa6c8e71c10e24f12760aa37351963d89f8394a23a6aac74e982e44bdde137",
+      "sha3_512": "a1de0f61e2de01d54b295df60eeddbe15696336721fe4356c21ead642dab527cf9bdb8c41666fa86b75096fd22503691df7ad3d8a66594a80ab9f1680f9d3123"
+    },
+    {
+      "name": "UNICAGD_289X.proto",
+      "size_bytes": 1939,
+      "sha256": "35e302e77746d453b26ec5e7e5d8a363c9be5f8b1d8fb591d2d6229b88108233",
+      "sha3_512": "c2a1e3e9bb607bc178c8bbaf723fb3429a4be5b4c52babe6c8a50ac0933dd1cbfb02dbfa3f4d83469df1d25eeb00df42ecea6bf420f45f35abc0be2a7dae4b4e"
+    },
+    {
+      "name": "UNICAGD_289X.pb",
+      "size_bytes": 10473,
+      "sha256": "cbc7e772ae857f0e37d103d5d663534ac0fbd3603ba9b01a5d3d7a32cd656f8a",
+      "sha3_512": "fbf0cf15398b8bb0f83da888a2cee857e2013f0daf20f00116e852bcc727db094e63991a61afc91943fe430aedf21b7faa43f43804d3b53f5bdfe51d255b85d8"
+    }
+  ]
+}
