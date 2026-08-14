@@ -9,7 +9,7 @@
 ╚═════╝  ╚═════╝  ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝
            INITIATE_SECURE_DOCTRINE_TRANSMISSION
 ```
-                        [INTEL](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be "Pallen's video tutorial")
+                        # H1 [INTEL](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be "Pallen'/s video tutorial")
  
 ## Doctrine template(s) | Intelligence Operating System for AI
 
