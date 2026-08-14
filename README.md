@@ -51,7 +51,8 @@
 | ack_required       = true                                                                          |
 | feedback_loop      = enabled                                                                       |
 | audit_log          = full                                                                          |
-| creator            = Péter Pál Lizicska | HU, BPHC                                                 |
+| creator            = Mary Dragonfly & Peter Lizicska | HU, BPHC                                    |
+| theme_m            = Wu Tang Clan                                                                  |
 +----------------------------------------------------------------------------------------------------+
 | STATUS: READY  |  RENDER PROFILE: GITHUB_GFM / UNICODE_BLOCK / WIDE                                |
 +----------------------------------------------------------------------------------------------------+
