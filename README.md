@@ -48,10 +48,11 @@
 | ack_required       = true                                                                          |
 | feedback_loop      = enabled                                                                       |
 | audit_log          = full                                                                          |
-| creators           = Mary Dragonfly & Peter Lizicska | ._::UK_BPHC:..                             🎲
-| theme_m            = Wu Tang Clan                                                                  |
+| creator_0          = Péter Pál Lizicska                                                            🎲
+| creator_1          = Mary Dragonfly                                                               🎲
+| theme_music        = Cypress Hill, remixology, Wu Tang Clan, Killakikitt, SKAZI, Infected Mushrooms, etc. ...|
 +----------------------------------------------------------------------------------------------------+
-| STATUS: READY  |  RENDER PROFILE: GITHUB_GFM / UNICODE_BLOCK / WIDE                                |
+| 💀 STATUS: READY  |  RENDER PROFILE: CUSTOM_87 / OPERATORS: 2-COOP / OPENAI_MODEL: GPT-5.0|5.3 💀 |
 +----------------------------------------------------------------------------------------------------+
 ```
 
