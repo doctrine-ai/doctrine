@@ -10,7 +10,7 @@
            INITIATE_SECURE_DOCTRINE_TRANSMISSION
 ```
 
-[____________________INTEL_________](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be "Pallen`s video tutorial")
+[____________________INTEL_________](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be "Mary`s video tutorial")
  
 ## Doctrine template(s) | Intelligence Operating System for AI
 
@@ -44,7 +44,7 @@
 | ack_required       = true                                                                          |
 | feedback_loop      = enabled                                                                       |
 | audit_log          = full                                                                          |
-| creator            = Mary Dragonfly & Peter Lizicska | HU, BPHC                                    |
+| creators            = Mary Dragonfly & Peter Lizicska | ::..HU?:BP:HC::.:.:.:::.::::::::::....:::?:|
 | theme_m            = Wu Tang Clan                                                                  |
 +----------------------------------------------------------------------------------------------------+
 | STATUS: READY  |  RENDER PROFILE: GITHUB_GFM / UNICODE_BLOCK / WIDE                                |
@@ -59,4 +59,4 @@
 
 ###### INTEL
 
-[INTEL](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be)
+[INTEL](https://www.veed.io/view/fde4e84c-b4de-497c-8d6c-72e9e46e62be "Mary`s video tutorial")
