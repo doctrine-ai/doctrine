@@ -1,0 +1,2124 @@
+{
+  "header": {
+    "schema_version": "3.0.0",
+    "derived_from": "2.3.0",
+    "derivation_method": "extraction-by-hands",
+    "total_weight_units": 896600
+  },
+  "domains": [
+    {
+      "id": "INTEL_CORE",
+      "name": "Intelligence Foundations and Governance",
+      "path": "root.layers.analytical_core.weights.categories[0]",
+      "weight_units": 22000,
+      "normalized_weight": 0.024537140307829577
+    },
+    {
+      "id": "INTEL_ANALYSIS",
+      "name": "Intelligence Analysis",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[0]",
+      "weight_units": 6200,
+      "normalized_weight": 0.006915012268570154
+    },
+    {
+      "id": "INTEL_OVERSIGHT",
+      "name": "Intelligence Oversight and Accountability",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[1]",
+      "weight_units": 3800,
+      "normalized_weight": 0.004238233325897837
+    },
+    {
+      "id": "ETHICS_INTEL",
+      "name": "Ethics in Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[2]",
+      "weight_units": 3400,
+      "normalized_weight": 0.0037921035021191165
+    },
+    {
+      "id": "DECISION_ANALYSIS",
+      "name": "Decision Analysis Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[3]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "KNOWLEDGE_MGMT",
+      "name": "Knowledge Management Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[4]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "INTEL_EDU",
+      "name": "Intelligence Education and Tradecraft",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[5]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "OSINT_INTEL",
+      "name": "Open-Source Intelligence (OSINT) Discipline",
+      "path": "root.layers.analytical_core.weights.categories[0].domains[6]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "COG_HUM",
+      "name": "Cognitive, Human, and Behavioral Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1]",
+      "weight_units": 18000,
+      "normalized_weight": 0.02007584207004238
+    },
+    {
+      "id": "COGNITIVE_SECURITY",
+      "name": "Cognitive Security Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[0]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "COGNITIVE_WARFARE",
+      "name": "Cognitive Warfare Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[1]",
+      "weight_units": 3100,
+      "normalized_weight": 0.003457506134285077
+    },
+    {
+      "id": "BEHAVIORAL_ANALYSIS",
+      "name": "Behavioral Analysis Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[2]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "BIAS_MITIGATION",
+      "name": "Cognitive Bias Mitigation Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[3]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "HUMAN_MACHINE",
+      "name": "Human\u2013Machine Interface Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[4]",
+      "weight_units": 2300,
+      "normalized_weight": 0.0025652464867276376
+    },
+    {
+      "id": "MENTAL_HEALTH",
+      "name": "Mental Health Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[5]",
+      "weight_units": 2400,
+      "normalized_weight": 0.0026767789426723177
+    },
+    {
+      "id": "DISINFO_RESILIENCE",
+      "name": "Disinformation, Misinformation, and Narrative Resilience Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[1].domains[6]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "AI_DATA",
+      "name": "AI, Data, and Computational Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2]",
+      "weight_units": 20000,
+      "normalized_weight": 0.02230649118893598
+    },
+    {
+      "id": "AI_INTEL",
+      "name": "Artificial Intelligence in Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[0]",
+      "weight_units": 3200,
+      "normalized_weight": 0.003569038590229757
+    },
+    {
+      "id": "XAI",
+      "name": "Explainable AI Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[1]",
+      "weight_units": 3600,
+      "normalized_weight": 0.004015168414008476
+    },
+    {
+      "id": "PRED_ANALYTICS",
+      "name": "Predictive Analytics Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[2]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "DATA_FUSION",
+      "name": "Data Fusion Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[3]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "ANOMALY_DET",
+      "name": "Anomaly Detection Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[4]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "GRAPH_ANALYTICS",
+      "name": "Graph Databases and Link Analysis Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[5]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "ENTITY_RESOLUTION",
+      "name": "Entity Resolution",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[5].leaves[0]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "SOCIAL_NETWORK_ANALYSIS",
+      "name": "Social Network Analysis",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[5].leaves[1]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "KNOWLEDGE_GRAPHS",
+      "name": "Knowledge Graphs",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[5].leaves[2]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "PATH_LINK_ANALYSIS",
+      "name": "Path and Link Analysis",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[5].leaves[3]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "DATA_GOVERNANCE",
+      "name": "Data Governance and Stewardship Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[6]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "LLM_SECURITY",
+      "name": "Foundation Model / LLM Security Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[2].domains[7]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "SEC_DEF",
+      "name": "Security, Defense, and Hybrid Threat Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3]",
+      "weight_units": 16000,
+      "normalized_weight": 0.017845192951148784
+    },
+    {
+      "id": "HYBRID_WAR",
+      "name": "Hybrid Warfare Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[0]",
+      "weight_units": 3600,
+      "normalized_weight": 0.004015168414008476
+    },
+    {
+      "id": "COUNTERTERROR",
+      "name": "Counter-Terrorism Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[1]",
+      "weight_units": 3400,
+      "normalized_weight": 0.0037921035021191165
+    },
+    {
+      "id": "CYBER_DEF",
+      "name": "Cyber Defense Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[2]",
+      "weight_units": 3200,
+      "normalized_weight": 0.003569038590229757
+    },
+    {
+      "id": "CTI",
+      "name": "Cyber Threat Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "APT",
+      "name": "Advanced Persistent Threats",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[0]",
+      "weight_units": 700,
+      "normalized_weight": 0.0007807271916127593
+    },
+    {
+      "id": "MALWARE",
+      "name": "Malware Analysis",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[1]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "INTRUSION",
+      "name": "Intrusion Detection",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[2]",
+      "weight_units": 400,
+      "normalized_weight": 0.00044612982377871963
+    },
+    {
+      "id": "THREAT_HUNT",
+      "name": "Threat Hunting",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[3]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "VULNERABILITY_INTEL",
+      "name": "Vulnerability Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[4]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "PHISHING_SOCENG",
+      "name": "Phishing and Social Engineering",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[3].leaves[5]",
+      "weight_units": 400,
+      "normalized_weight": 0.00044612982377871963
+    },
+    {
+      "id": "COUNTERINTEL",
+      "name": "Counterintelligence",
+      "path": "root.layers.analytical_core.weights.categories[3].domains[4]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "ECON_SYS",
+      "name": "Economic, Trade, and Systemic Risk Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4]",
+      "weight_units": 14000,
+      "normalized_weight": 0.015614543832255186
+    },
+    {
+      "id": "ECON_INTEL",
+      "name": "Economic Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[0]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "GLOBAL_TRADE",
+      "name": "Global Trade Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[1]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "GEOECON",
+      "name": "Geoeconomics Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[2]",
+      "weight_units": 2400,
+      "normalized_weight": 0.0026767789426723177
+    },
+    {
+      "id": "FIN_CRIME",
+      "name": "Financial Crime Investigation Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[3]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "SANCTIONS",
+      "name": "Economic Sanctions Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[4]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "SUPPLY_CHAIN_INTEL",
+      "name": "Supply Chain and Logistics Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[5]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "ENERGY_MARKETS_INTEL",
+      "name": "Energy Markets and Energy Security Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[4].domains[6]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ENV_BIO",
+      "name": "Environmental, Biological, and Health Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "CLIMATE_SEC",
+      "name": "Climate Change and Security Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5].domains[0]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "PUBLIC_HEALTH",
+      "name": "Public Health Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5].domains[1]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "EPIDEMIOLOGY",
+      "name": "Epidemiology Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "BIOSECURITY",
+      "name": "Biosecurity Threat Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5].domains[3]",
+      "weight_units": 1700,
+      "normalized_weight": 0.0018960517510595582
+    },
+    {
+      "id": "ONE_HEALTH_INTEL",
+      "name": "One Health (Human\u2013Animal\u2013Environment) Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[5].domains[4]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CAGD_EXTENSION",
+      "name": "CAGD: Structural Authority",
+      "path": "root.layers.analytical_core.weights.categories[6]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "EXTENSION_STAGES",
+      "name": "Extension Stages",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "EX01",
+      "name": "Domain Detection",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[0]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "EX02",
+      "name": "Schema & Weight Validation",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[1]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "EX03",
+      "name": "Envelope Compatibility Check",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "EX04",
+      "name": "Inline Instantiation",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "EX05",
+      "name": "Locking & Immutability",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[4]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "EX06",
+      "name": "Execution Authorization",
+      "path": "root.layers.analytical_core.weights.categories[6].domains[0].leaves[5]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CAGD_ANALYTICS",
+      "name": "CAGD: Analytics",
+      "path": "root.layers.analytical_core.weights.categories[7]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "ANA01",
+      "name": "Descriptive Analytics and Data Exploration",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[0]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "ANA02",
+      "name": "Diagnostic Analytics and Root Cause Analysis",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[1]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "ANA03",
+      "name": "Predictive Analytics and Forecasting",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[2]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "ANA04",
+      "name": "Prescriptive Analytics and Optimization",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[3]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ANA05",
+      "name": "Statistical Analysis and Inference",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[4]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ANA06",
+      "name": "Time Series, Trend, and Signal Analysis",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[5]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "ANA07",
+      "name": "Causal Analysis and Impact Assessment",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[6]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "ANA08",
+      "name": "Risk, Sensitivity, and Uncertainty Analysis",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[7]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "ANA09",
+      "name": "Visualization, Reporting, and Decision Communication",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[8]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "ANA10",
+      "name": "Advanced Analytics and Hybrid Methods",
+      "path": "root.layers.analytical_core.weights.categories[7].domains[9]",
+      "weight_units": 400,
+      "normalized_weight": 0.00044612982377871963
+    },
+    {
+      "id": "CAGD_ANALYST",
+      "name": "CAGD: Analyst",
+      "path": "root.layers.analytical_core.weights.categories[8]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "ANL01",
+      "name": "Analytic Foundations and Critical Thinking",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[0]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "ANL02",
+      "name": "Problem Structuring and Decomposition",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[1]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "ANL03",
+      "name": "Evidence Evaluation and Source Reliability",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[2]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "ANL04",
+      "name": "Hypothesis Generation and Testing",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[3]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ANL05",
+      "name": "Cognitive Biases and Debiasing Techniques",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[4]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ANL06",
+      "name": "Structured Analytic Techniques",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[5]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ANL07",
+      "name": "Uncertainty, Probability, and Confidence Assessment",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[6]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "ANL08",
+      "name": "Scenario Analysis and Alternative Futures",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[7]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "ANL09",
+      "name": "Decision Support and Policy Analysis",
+      "path": "root.layers.analytical_core.weights.categories[8].domains[8]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "CAGD_SIMULATOR",
+      "name": "CAGD: Simulator",
+      "path": "root.layers.analytical_core.weights.categories[9]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "SIM01",
+      "name": "Classical Physics-Based Simulation",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[0]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "SIM02",
+      "name": "Numerical Methods and Solvers",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[1]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "SIM03",
+      "name": "Multi-Body and Rigid/Flexible Dynamics",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[2]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "SIM04",
+      "name": "Computational Fluid Dynamics (CFD)",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[3]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "SIM05",
+      "name": "Thermal, Structural, and Multiphysics Simulation",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[4]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "SIM06",
+      "name": "Stochastic, Monte Carlo, and Uncertainty Simulation",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[5]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "SIM07",
+      "name": "Agent-Based and Multi-Agent Simulation",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[6]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "SIM08",
+      "name": "Discrete-Event and System Dynamics Simulation",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[7]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "SIM09",
+      "name": "Real-Time, Hardware-in-the-Loop, and Digital Twins",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[8]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "SIM10",
+      "name": "Simulation Verification, Validation, and Sensitivity Analysis",
+      "path": "root.layers.analytical_core.weights.categories[9].domains[9]",
+      "weight_units": 700,
+      "normalized_weight": 0.0007807271916127593
+    },
+    {
+      "id": "CAGD_MATH",
+      "name": "CAGD: Math",
+      "path": "root.layers.analytical_core.weights.categories[10]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "M01",
+      "name": "Foundations of Mathematics and Logic",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[0]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "M02",
+      "name": "Algebra (Linear, Abstract, Computational)",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[1]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "M03",
+      "name": "Analysis (Real, Complex, Functional)",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[2]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "M04",
+      "name": "Geometry and Topology",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[3]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "M05",
+      "name": "Probability Theory and Statistics",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[4]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "M06",
+      "name": "Applied Mathematics and Mathematical Modeling",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[5]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "M07",
+      "name": "Numerical Analysis and Scientific Computing",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[6]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "M08",
+      "name": "Optimization and Operations Research",
+      "path": "root.layers.analytical_core.weights.categories[10].domains[7]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "CAGD_PSY",
+      "name": "CAGD: Psy",
+      "path": "root.layers.analytical_core.weights.categories[11]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "PSY01",
+      "name": "Cognitive Biases and Heuristics",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[0]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "PSY02",
+      "name": "Perception and Information Processing",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[1]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "PSY03",
+      "name": "Judgment Under Uncertainty",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[2]",
+      "weight_units": 1700,
+      "normalized_weight": 0.0018960517510595582
+    },
+    {
+      "id": "PSY04",
+      "name": "Organizational and Social Influences",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "PSY05",
+      "name": "Analytic Mindsets and Styles",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[4]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "PSY06",
+      "name": "Bias Mitigation Techniques",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[5]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "PSY07",
+      "name": "Learning, Feedback, and Calibration",
+      "path": "root.layers.analytical_core.weights.categories[11].domains[6]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "CAGD_AI",
+      "name": "CAGD: Ai",
+      "path": "root.layers.analytical_core.weights.categories[12]",
+      "weight_units": 11100,
+      "normalized_weight": 0.012380102609859469
+    },
+    {
+      "id": "AI01",
+      "name": "Foundations of Artificial Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[0]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "AI02",
+      "name": "Machine Learning",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[1]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "AI03",
+      "name": "Deep Learning",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[2]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "AI04",
+      "name": "Generative Artificial Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[3]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "AI05",
+      "name": "Time Series Analysis and Forecasting",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[4]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "AI06",
+      "name": "Symbolic AI and Knowledge Representation",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[5]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "AI07",
+      "name": "Reinforcement Learning and Decision Making",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[6]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "AI08",
+      "name": "Natural Language Processing",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[7]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "AI09",
+      "name": "Computer Vision and Perception",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[8]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "AI10",
+      "name": "Multi-Agent Systems and Swarm Intelligence",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[9]",
+      "weight_units": 700,
+      "normalized_weight": 0.0007807271916127593
+    },
+    {
+      "id": "AI11",
+      "name": "AI Simulation, Modeling, and Digital Twins",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[10]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "AI12",
+      "name": "AI Safety, Ethics, and Alignment",
+      "path": "root.layers.analytical_core.weights.categories[12].domains[11]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "CAGD_NETWORKING",
+      "name": "CAGD: Networking",
+      "path": "root.layers.analytical_core.weights.categories[13]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "NET01",
+      "name": "Network Foundations and Models (OSI, TCP/IP)",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[0]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "NET02",
+      "name": "Physical and Data Link Layer Technologies",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[1]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "NET03",
+      "name": "Routing, Switching, and Network Topologies",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[2]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "NET04",
+      "name": "Transport and Application Layer Protocols",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[3]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "NET05",
+      "name": "Wireless, Mobile, and Sensor Networks",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[4]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "NET06",
+      "name": "Network Security and Cryptographic Protocols",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[5]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "NET07",
+      "name": "Distributed Systems and Cloud Networking",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[6]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "NET08",
+      "name": "Network Performance, Monitoring, and Optimization",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[7]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "NET09",
+      "name": "Software-Defined Networking and Network Virtualization",
+      "path": "root.layers.analytical_core.weights.categories[13].domains[8]",
+      "weight_units": 800,
+      "normalized_weight": 0.0008922596475574393
+    },
+    {
+      "id": "CAGD_YAML_EDITOR",
+      "name": "CAGD: Yaml Editor",
+      "path": "root.layers.analytical_core.weights.categories[14]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "YA01",
+      "name": "YAML Syntax",
+      "path": "root.layers.analytical_core.weights.categories[14].domains[0]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "YA02",
+      "name": "Schema and Validation",
+      "path": "root.layers.analytical_core.weights.categories[14].domains[1]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "YA03",
+      "name": "Configuration Management",
+      "path": "root.layers.analytical_core.weights.categories[14].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "YA04",
+      "name": "Tooling",
+      "path": "root.layers.analytical_core.weights.categories[14].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "YA05",
+      "name": "Best Practices",
+      "path": "root.layers.analytical_core.weights.categories[14].domains[4]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "CAGD_JSON_EDITOR",
+      "name": "CAGD: Json Editor",
+      "path": "root.layers.analytical_core.weights.categories[15]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "JS01",
+      "name": "Schema Design",
+      "path": "root.layers.analytical_core.weights.categories[15].domains[0]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "JS02",
+      "name": "Validation",
+      "path": "root.layers.analytical_core.weights.categories[15].domains[1]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "JS03",
+      "name": "Transformation",
+      "path": "root.layers.analytical_core.weights.categories[15].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "JS04",
+      "name": "Tooling",
+      "path": "root.layers.analytical_core.weights.categories[15].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "JS05",
+      "name": "Best Practices",
+      "path": "root.layers.analytical_core.weights.categories[15].domains[4]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "CAGD_PROG_C_CPP",
+      "name": "CAGD: Prog C Cpp",
+      "path": "root.layers.analytical_core.weights.categories[16]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "C01",
+      "name": "Language Fundamentals",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[0]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "C02",
+      "name": "Memory Management",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[1]",
+      "weight_units": 2100,
+      "normalized_weight": 0.002342181574838278
+    },
+    {
+      "id": "C03",
+      "name": "Standard Libraries",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[2]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "C04",
+      "name": "Systems Programming",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "C05",
+      "name": "Performance Optimization",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[4]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "C06",
+      "name": "Security Standards and Secure Coding",
+      "path": "root.layers.analytical_core.weights.categories[16].domains[5]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "CAGD_PHARMACOLOGY",
+      "name": "CAGD: Pharmacology",
+      "path": "root.layers.analytical_core.weights.categories[17]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "PHA01",
+      "name": "Pharmacodynamics",
+      "path": "root.layers.analytical_core.weights.categories[17].domains[0]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "PHA02",
+      "name": "Pharmacokinetics",
+      "path": "root.layers.analytical_core.weights.categories[17].domains[1]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "PHA03",
+      "name": "Drug Development",
+      "path": "root.layers.analytical_core.weights.categories[17].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "PHA04",
+      "name": "Toxicology",
+      "path": "root.layers.analytical_core.weights.categories[17].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "PHA05",
+      "name": "Clinical Applications",
+      "path": "root.layers.analytical_core.weights.categories[17].domains[4]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CAGD_MICROELECTRONICS",
+      "name": "CAGD: Microelectronics",
+      "path": "root.layers.analytical_core.weights.categories[18]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "ME01",
+      "name": "Semiconductor Physics",
+      "path": "root.layers.analytical_core.weights.categories[18].domains[0]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "ME02",
+      "name": "Integrated Circuits",
+      "path": "root.layers.analytical_core.weights.categories[18].domains[1]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "ME03",
+      "name": "Microfabrication",
+      "path": "root.layers.analytical_core.weights.categories[18].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "ME04",
+      "name": "Embedded Systems",
+      "path": "root.layers.analytical_core.weights.categories[18].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "ME05",
+      "name": "Hardware Testing",
+      "path": "root.layers.analytical_core.weights.categories[18].domains[4]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "CAGD_GNU_KALI",
+      "name": "CAGD: Gnu Kali",
+      "path": "root.layers.analytical_core.weights.categories[19]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "GK01",
+      "name": "GNU/Linux Fundamentals",
+      "path": "root.layers.analytical_core.weights.categories[19].domains[0]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "GK02",
+      "name": "Kali Tooling",
+      "path": "root.layers.analytical_core.weights.categories[19].domains[1]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "GK03",
+      "name": "Penetration Testing",
+      "path": "root.layers.analytical_core.weights.categories[19].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "GK04",
+      "name": "Exploit Development",
+      "path": "root.layers.analytical_core.weights.categories[19].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "GK05",
+      "name": "Operational Security",
+      "path": "root.layers.analytical_core.weights.categories[19].domains[4]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "CAGD_FORENSICS",
+      "name": "CAGD: Forensics",
+      "path": "root.layers.analytical_core.weights.categories[20]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "FOR01",
+      "name": "Crime Scene Analysis",
+      "path": "root.layers.analytical_core.weights.categories[20].domains[0]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "FOR02",
+      "name": "Digital Forensics",
+      "path": "root.layers.analytical_core.weights.categories[20].domains[1]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "FOR03",
+      "name": "Biological Forensics",
+      "path": "root.layers.analytical_core.weights.categories[20].domains[2]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "FOR04",
+      "name": "Trace Evidence",
+      "path": "root.layers.analytical_core.weights.categories[20].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "FOR05",
+      "name": "Forensic Reporting",
+      "path": "root.layers.analytical_core.weights.categories[20].domains[4]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "CAGD_LANG_YUA",
+      "name": "CAGD: Lang Yua",
+      "path": "root.layers.analytical_core.weights.categories[21]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "YUA01",
+      "name": "Grammar and Morphosyntax",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[0]",
+      "weight_units": 2300,
+      "normalized_weight": 0.0025652464867276376
+    },
+    {
+      "id": "YUA02",
+      "name": "Lexicon and Vocabulary",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[1]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "YUA03",
+      "name": "Phonology and Phonetics",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[2]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "YUA04",
+      "name": "Writing Systems and Orthography",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[3]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "YUA05",
+      "name": "Oral Tradition and Discourse",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[4]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "YUA06",
+      "name": "Historical Development of the Yucatec Maya Language",
+      "path": "root.layers.analytical_core.weights.categories[21].domains[5]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "CAGD_LANG_ES",
+      "name": "CAGD: Lang Es",
+      "path": "root.layers.analytical_core.weights.categories[22]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "ES01",
+      "name": "Grammar",
+      "path": "root.layers.analytical_core.weights.categories[22].domains[0]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "ES02",
+      "name": "Vocabulary",
+      "path": "root.layers.analytical_core.weights.categories[22].domains[1]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "ES03",
+      "name": "Reading Comprehension",
+      "path": "root.layers.analytical_core.weights.categories[22].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "ES04",
+      "name": "Writing",
+      "path": "root.layers.analytical_core.weights.categories[22].domains[3]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "ES05",
+      "name": "Spoken Spanish",
+      "path": "root.layers.analytical_core.weights.categories[22].domains[4]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CAGD_CYBERNETICS",
+      "name": "CAGD: Cybernetics",
+      "path": "root.layers.analytical_core.weights.categories[23]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "CYB01",
+      "name": "General Systems Theory",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[0]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CYB02",
+      "name": "Control Theory (Linear, Nonlinear, Optimal)",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[1]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "CYB03",
+      "name": "Feedback, Regulation, and Homeostasis",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[2]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CYB04",
+      "name": "Information, Communication, and Signals",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[3]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "CYB05",
+      "name": "Cybernetics of Biological Systems",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[4]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "CYB06",
+      "name": "Cognitive and Social Cybernetics",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[5]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "CYB07",
+      "name": "Adaptive, Self-Organizing, and Complex Systems",
+      "path": "root.layers.analytical_core.weights.categories[23].domains[6]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "CAGD_DATABASES",
+      "name": "CAGD: Databases",
+      "path": "root.layers.analytical_core.weights.categories[24]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "DB01",
+      "name": "Relational Database Systems (SQL)",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[0]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "DB02",
+      "name": "NoSQL Databases (Key-Value, Document, Column)",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[1]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "DB03",
+      "name": "Distributed and Cloud Databases",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[2]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "DB04",
+      "name": "Transactional Systems and ACID Models",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[3]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "DB05",
+      "name": "Analytical Databases and Data Warehousing",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[4]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "DB06",
+      "name": "Time-Series and Streaming Databases",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[5]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "DB07",
+      "name": "Graph and Knowledge Graph Databases",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[6]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "DB08",
+      "name": "Vector Databases and Similarity Search",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[7]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "DB09",
+      "name": "Database Theory, Indexing, and Storage Engines",
+      "path": "root.layers.analytical_core.weights.categories[24].domains[8]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "CAGD_BROKER_IT",
+      "name": "CAGD: Broker It",
+      "path": "root.layers.analytical_core.weights.categories[25]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "BIT01",
+      "name": "Trading Systems",
+      "path": "root.layers.analytical_core.weights.categories[25].domains[0]",
+      "weight_units": 2500,
+      "normalized_weight": 0.0027883113986169974
+    },
+    {
+      "id": "BIT02",
+      "name": "Market Data Infrastructure",
+      "path": "root.layers.analytical_core.weights.categories[25].domains[1]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "BIT03",
+      "name": "Risk Management Systems",
+      "path": "root.layers.analytical_core.weights.categories[25].domains[2]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "BIT04",
+      "name": "Compliance and Reporting",
+      "path": "root.layers.analytical_core.weights.categories[25].domains[3]",
+      "weight_units": 1700,
+      "normalized_weight": 0.0018960517510595582
+    },
+    {
+      "id": "BIT05",
+      "name": "Low-Latency Architecture",
+      "path": "root.layers.analytical_core.weights.categories[25].domains[4]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "CAGD_BALLISTICS",
+      "name": "CAGD: Ballistics",
+      "path": "root.layers.analytical_core.weights.categories[26]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "BAL01",
+      "name": "Internal Ballistics and Propulsion Physics",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[0]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "BAL02",
+      "name": "External Ballistics and Aerodynamic Flight",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[1]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "BAL03",
+      "name": "Terminal Ballistics and Impact Mechanics",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[2]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "BAL04",
+      "name": "Flight Mechanics and Trajectory Dynamics",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[3]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "BAL05",
+      "name": "Orbital Mechanics and Spaceflight Ballistics",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[4]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "BAL06",
+      "name": "Hypersonic and High-Energy Regimes",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[5]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "BAL07",
+      "name": "Atmospheric Reentry and Thermal Physics",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[6]",
+      "weight_units": 1000,
+      "normalized_weight": 0.001115324559446799
+    },
+    {
+      "id": "BAL08",
+      "name": "Guidance, Navigation, and Control (GNC)",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[7]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "BAL09",
+      "name": "Ballistic Simulation and Numerical Modeling",
+      "path": "root.layers.analytical_core.weights.categories[26].domains[8]",
+      "weight_units": 900,
+      "normalized_weight": 0.001003792103502119
+    },
+    {
+      "id": "CAGD_ECON",
+      "name": "CAGD: Econ",
+      "path": "root.layers.analytical_core.weights.categories[27]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "EC01",
+      "name": "Microeconomics",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[0]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "EC02",
+      "name": "Macroeconomics",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[1]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "EC03",
+      "name": "Monetary Economics and Central Banking",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[2]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "EC04",
+      "name": "Banking Systems and Financial Intermediation",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[3]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "EC05",
+      "name": "Financial Markets and Asset Pricing",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[4]",
+      "weight_units": 1400,
+      "normalized_weight": 0.0015614543832255187
+    },
+    {
+      "id": "EC06",
+      "name": "International Economics and Global Finance",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[5]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "EC07",
+      "name": "Political Economy and Economic Institutions",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[6]",
+      "weight_units": 1100,
+      "normalized_weight": 0.001226857015391479
+    },
+    {
+      "id": "EC08",
+      "name": "Economic Forecasting and Quantitative Modeling",
+      "path": "root.layers.analytical_core.weights.categories[27].domains[7]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "CAGD_MATERIAL_SCIENCE",
+      "name": "Material Science and Engineering",
+      "path": "root.layers.analytical_core.weights.categories[28]",
+      "weight_units": 12000,
+      "normalized_weight": 0.013383894713361589
+    },
+    {
+      "id": "MAT_01",
+      "name": "Nanomaterials",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[0]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "MAT_02",
+      "name": "Polymers",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[1]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "MAT_03",
+      "name": "Metals",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "MAT_04",
+      "name": "Composites",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[3]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "MAT_05",
+      "name": "Smart Materials",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[4]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "MAT_06",
+      "name": "Ceramics",
+      "path": "root.layers.analytical_core.weights.categories[28].domains[5]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "P01",
+      "name": "Classical and Continuum Physics",
+      "path": "root.domains.physics.domains[0]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "P02",
+      "name": "Quantum Physics",
+      "path": "root.domains.physics.domains[1]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "P03",
+      "name": "Relativistic and Cosmological Physics",
+      "path": "root.domains.physics.domains[2]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "P04",
+      "name": "Statistical and Complex Systems",
+      "path": "root.domains.physics.domains[3]",
+      "weight_units": 1300,
+      "normalized_weight": 0.0014499219272808388
+    },
+    {
+      "id": "P05",
+      "name": "Nuclear, Particle, and Plasma Physics",
+      "path": "root.domains.physics.domains[4]",
+      "weight_units": 1700,
+      "normalized_weight": 0.0018960517510595582
+    },
+    {
+      "id": "P06",
+      "name": "Applied and Computational Physics",
+      "path": "root.domains.physics.domains[5]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    },
+    {
+      "id": "INTEL_CORE",
+      "name": "Intelligence Foundations and Governance",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0]",
+      "weight_units": 22000,
+      "normalized_weight": 0.024537140307829577
+    },
+    {
+      "id": "INTEL_ANALYSIS",
+      "name": "Intelligence Analysis",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[0]",
+      "weight_units": 6200,
+      "normalized_weight": 0.006915012268570154
+    },
+    {
+      "id": "INTEL_OVERSIGHT",
+      "name": "Intelligence Oversight and Accountability",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[1]",
+      "weight_units": 3800,
+      "normalized_weight": 0.004238233325897837
+    },
+    {
+      "id": "ETHICS_INTEL",
+      "name": "Ethics in Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[2]",
+      "weight_units": 3400,
+      "normalized_weight": 0.0037921035021191165
+    },
+    {
+      "id": "DECISION_ANALYSIS",
+      "name": "Decision Analysis Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[3]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "KNOWLEDGE_MGMT",
+      "name": "Knowledge Management Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[4]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "INTEL_EDU",
+      "name": "Intelligence Education and Tradecraft",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[5]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "OSINT_INTEL",
+      "name": "Open-Source Intelligence (OSINT) Discipline",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[0].domains[6]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "COG_HUM",
+      "name": "Cognitive, Human, and Behavioral Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1]",
+      "weight_units": 18000,
+      "normalized_weight": 0.02007584207004238
+    },
+    {
+      "id": "COGNITIVE_SECURITY",
+      "name": "Cognitive Security Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[0]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "COGNITIVE_WARFARE",
+      "name": "Cognitive Warfare Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[1]",
+      "weight_units": 3100,
+      "normalized_weight": 0.003457506134285077
+    },
+    {
+      "id": "BEHAVIORAL_ANALYSIS",
+      "name": "Behavioral Analysis Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[2]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "BIAS_MITIGATION",
+      "name": "Cognitive Bias Mitigation Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[3]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "HUMAN_MACHINE",
+      "name": "Human\u2013Machine Interface Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[4]",
+      "weight_units": 2300,
+      "normalized_weight": 0.0025652464867276376
+    },
+    {
+      "id": "MENTAL_HEALTH",
+      "name": "Mental Health Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[5]",
+      "weight_units": 2400,
+      "normalized_weight": 0.0026767789426723177
+    },
+    {
+      "id": "DISINFO_RESILIENCE",
+      "name": "Disinformation, Misinformation, and Narrative Resilience Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[1].domains[6]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "AI_DATA",
+      "name": "AI, Data, and Computational Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2]",
+      "weight_units": 20000,
+      "normalized_weight": 0.02230649118893598
+    },
+    {
+      "id": "AI_INTEL",
+      "name": "Artificial Intelligence in Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[0]",
+      "weight_units": 3200,
+      "normalized_weight": 0.003569038590229757
+    },
+    {
+      "id": "XAI",
+      "name": "Explainable AI Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[1]",
+      "weight_units": 3600,
+      "normalized_weight": 0.004015168414008476
+    },
+    {
+      "id": "PRED_ANALYTICS",
+      "name": "Predictive Analytics Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[2]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "DATA_FUSION",
+      "name": "Data Fusion Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[3]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "ANOMALY_DET",
+      "name": "Anomaly Detection Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[4]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "GRAPH_ANALYTICS",
+      "name": "Graph Databases and Link Analysis Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[5]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "ENTITY_RESOLUTION",
+      "name": "Entity Resolution",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[5].leaves[0]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "SOCIAL_NETWORK_ANALYSIS",
+      "name": "Social Network Analysis",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[5].leaves[1]",
+      "weight_units": 600,
+      "normalized_weight": 0.0006691947356680794
+    },
+    {
+      "id": "KNOWLEDGE_GRAPHS",
+      "name": "Knowledge Graphs",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[5].leaves[2]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "PATH_LINK_ANALYSIS",
+      "name": "Path and Link Analysis",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[5].leaves[3]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "DATA_GOVERNANCE",
+      "name": "Data Governance and Stewardship Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[6]",
+      "weight_units": 1600,
+      "normalized_weight": 0.0017845192951148785
+    },
+    {
+      "id": "LLM_SECURITY",
+      "name": "Foundation Model / LLM Security Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[2].domains[7]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "SEC_DEF",
+      "name": "Security, Defense, and Hybrid Threat Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3]",
+      "weight_units": 16000,
+      "normalized_weight": 0.017845192951148784
+    },
+    {
+      "id": "HYBRID_WAR",
+      "name": "Hybrid Warfare Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[0]",
+      "weight_units": 3600,
+      "normalized_weight": 0.004015168414008476
+    },
+    {
+      "id": "COUNTERTERROR",
+      "name": "Counter-Terrorism Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[1]",
+      "weight_units": 3400,
+      "normalized_weight": 0.0037921035021191165
+    },
+    {
+      "id": "CYBER_DEF",
+      "name": "Cyber Defense Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[2]",
+      "weight_units": 3200,
+      "normalized_weight": 0.003569038590229757
+    },
+    {
+      "id": "CTI",
+      "name": "Cyber Threat Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3]",
+      "weight_units": 3000,
+      "normalized_weight": 0.0033459736783403972
+    },
+    {
+      "id": "APT",
+      "name": "Advanced Persistent Threats",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[0]",
+      "weight_units": 700,
+      "normalized_weight": 0.0007807271916127593
+    },
+    {
+      "id": "MALWARE",
+      "name": "Malware Analysis",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[1]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "INTRUSION",
+      "name": "Intrusion Detection",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[2]",
+      "weight_units": 400,
+      "normalized_weight": 0.00044612982377871963
+    },
+    {
+      "id": "THREAT_HUNT",
+      "name": "Threat Hunting",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[3]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "VULNERABILITY_INTEL",
+      "name": "Vulnerability Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[4]",
+      "weight_units": 500,
+      "normalized_weight": 0.0005576622797233995
+    },
+    {
+      "id": "PHISHING_SOCENG",
+      "name": "Phishing and Social Engineering",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[3].leaves[5]",
+      "weight_units": 400,
+      "normalized_weight": 0.00044612982377871963
+    },
+    {
+      "id": "COUNTERINTEL",
+      "name": "Counterintelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[3].domains[4]",
+      "weight_units": 2800,
+      "normalized_weight": 0.0031229087664510374
+    },
+    {
+      "id": "ECON_SYS",
+      "name": "Economic, Trade, and Systemic Risk Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4]",
+      "weight_units": 14000,
+      "normalized_weight": 0.015614543832255186
+    },
+    {
+      "id": "ECON_INTEL",
+      "name": "Economic Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[0]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "GLOBAL_TRADE",
+      "name": "Global Trade Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[1]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "GEOECON",
+      "name": "Geoeconomics Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[2]",
+      "weight_units": 2400,
+      "normalized_weight": 0.0026767789426723177
+    },
+    {
+      "id": "FIN_CRIME",
+      "name": "Financial Crime Investigation Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[3]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "SANCTIONS",
+      "name": "Economic Sanctions Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[4]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "SUPPLY_CHAIN_INTEL",
+      "name": "Supply Chain and Logistics Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[5]",
+      "weight_units": 1800,
+      "normalized_weight": 0.002007584207004238
+    },
+    {
+      "id": "ENERGY_MARKETS_INTEL",
+      "name": "Energy Markets and Energy Security Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[4].domains[6]",
+      "weight_units": 1200,
+      "normalized_weight": 0.0013383894713361588
+    },
+    {
+      "id": "ENV_BIO",
+      "name": "Environmental, Biological, and Health Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5]",
+      "weight_units": 10000,
+      "normalized_weight": 0.01115324559446799
+    },
+    {
+      "id": "CLIMATE_SEC",
+      "name": "Climate Change and Security Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5].domains[0]",
+      "weight_units": 2600,
+      "normalized_weight": 0.0028998438545616775
+    },
+    {
+      "id": "PUBLIC_HEALTH",
+      "name": "Public Health Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5].domains[1]",
+      "weight_units": 2200,
+      "normalized_weight": 0.002453714030782958
+    },
+    {
+      "id": "EPIDEMIOLOGY",
+      "name": "Epidemiology Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5].domains[2]",
+      "weight_units": 2000,
+      "normalized_weight": 0.002230649118893598
+    },
+    {
+      "id": "BIOSECURITY",
+      "name": "Biosecurity Threat Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5].domains[3]",
+      "weight_units": 1700,
+      "normalized_weight": 0.0018960517510595582
+    },
+    {
+      "id": "ONE_HEALTH_INTEL",
+      "name": "One Health (Human\u2013Animal\u2013Environment) Intelligence",
+      "path": "root.integrated_layers.all_in_one_v1_1_1.content.weights.categories[5].domains[4]",
+      "weight_units": 1500,
+      "normalized_weight": 0.0016729868391701986
+    }
+  ]
+}
